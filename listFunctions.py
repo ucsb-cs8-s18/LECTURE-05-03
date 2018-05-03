@@ -2,8 +2,8 @@ def onlyEvenIntegers(someList):
 
    answer = []
    for blah in someList:
-       # if blah%2==0 and type(blah)==int:
-       if type(blah)==int and blah%2==0:
+       #if blah%2==0 and type(blah)==int:  # WRONG ORDER
+       if type(blah)==int and blah%2==0:    # CORRECT ORDER
            answer.append(blah)
    return answer
 
